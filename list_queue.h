@@ -17,7 +17,7 @@ public:
 
 
     // Implementering af de virtuelle funktioner
-    void enqueue(int element) override;
+    void enqueue(int value) override;
     int dequeue() override;
     bool Empty() override;
     bool Full() override;
