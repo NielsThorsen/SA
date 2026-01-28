@@ -12,7 +12,7 @@ public:
     Int_array_queue(int size);
     ~Int_array_queue();
 
-    // Override all pure virtual functions from AbstractQueue
+    // Override virtuelle funktioner med "implementerede" funktioner.
     void enqueue(int value) override;
     int dequeue() override;
     bool Empty() override;
